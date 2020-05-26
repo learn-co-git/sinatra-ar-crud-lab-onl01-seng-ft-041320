@@ -50,6 +50,5 @@ end
 
 delete '/articles/:id' do
   Article.destroy(params[:id])
-end
 
 end
